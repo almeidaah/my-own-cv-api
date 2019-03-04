@@ -73479,7 +73479,6 @@ object-assign
                                 url && _react2.default.createElement("div", null, null),
 
 
-                                _react2.default.createElement("h4", null, "Server response"),
                                 _react2.default.createElement("table", { className: "responses-table live-responses-table" },
                                     _react2.default.createElement("thead", null,
                                         _react2.default.createElement("tr", { className: "responses-header" },

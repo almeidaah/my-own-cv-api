@@ -2,6 +2,7 @@ package almeida.fernando.myowncv.model;
 
 import almeida.fernando.myowncv.MyOwnCvApplication;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -10,26 +11,25 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 @Document
-@Getter @Setter
+@Getter
+@Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Experience implements Serializable {
+public class Qualification implements Serializable {
 
     @Id
     @JsonIgnore
     private String id;
 
-    @JsonIgnore
-    String fullName = MyOwnCvApplication.MYSELF_NAME;
-
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     LocalDate startDate;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     LocalDate endDate;
 
-    String companyName;
-    String role;
+    String description;
 
-    String whatIDidThere;
-
+    @JsonIgnore
+    String fullName = MyOwnCvApplication.MYSELF_NAME;
 
 }
