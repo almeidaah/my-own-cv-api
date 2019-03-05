@@ -35,17 +35,7 @@ public class MyOwnCvApplication {
 				.endDate(LocalDate.of(2018, 11, 30 ))
 				.companyName("Suntech - Verint Group")
 				.role("Full Java Developer")
-				.whatIDidThere(" Suntech is a leader in the Legal Interception market in Brazil and Chile. Our business consist in solutions that help organizations around the world fight crime and other threats.\n" +
-						"\n" +
-						"As a Java Developer worked on projects in the area of Legal Interception Management, Communication Networks and Cyber Security, most of times focusing on Backend development. In my day-to-day activities I'm mostly developing code with Spring components, Java last features and more recently with Amazon Kinesis(to DataStreams) and another AWS stack tools. \n" +
-						"\n" +
-						"One concern that I have is always developing scalable, reusable applications that work with a large amount of data while maintaining performance, always looking to develop the best approach for the problem. \n" +
-						"\n" +
-						"Technologies: Java 7/8/9, Javascript, JSP\n" +
-						"Testing Using MockMvc(for Spring MVC), RestTemplate and Junit(Annotations and Rules) \n" +
-						"Frameworks: jQuery, Spring MVC, Spring Boot 2, MyBatis/JPA(ORM), Maven, Jenkins.\n" +
-						"Databases: Oracle, PostgreSQL\n" +
-						"AWS Kinesis / ECS /Aurora ").build());
+				.whatIDidThere("Suntech is a leader in the Legal Interception market in Brazil and Chile. Our business consist in solutions that help organizations around the world fight crime and other threats. As a Java Developer I've worked on projects in the area of Legal Interception Management, Communication Networks and Cyber Security, most of times focusing on Backend development. In my day-to-day activities I'm mostly developing code with Spring components, Java last features and more recently with Amazon Kinesis(to DataStreams) and another AWS stack tools.  - One concern that I have is always developing scalable, reusable applications that work with a large amount of data while maintaining performance, always looking to develop the best approach for the problem. - Technologies: Java 7/8/9, Javascript, JSP - Testing Using MockMvc(for Spring MVC), RestTemplate and Junit(Annotations and Rules) - Frameworks: jQuery, Spring MVC, Spring Boot 2, MyBatis/JPA(ORM), Maven, Jenkins. - Databases: Oracle, PostgreSQL - AWS Kinesis / ECS /Aurora ").build());
 
 		experiences.add(new Experience().builder()
 				.fullName(MYSELF_NAME)
@@ -53,13 +43,7 @@ public class MyOwnCvApplication {
 				.endDate(LocalDate.of(2017, 06, 01 ))
 				.companyName("Portal Unimed")
 				.role("Full Developer Analyst (Java) - New Products Development Team")
-				.whatIDidThere("Development of applications using the Java programming language for Corporate Portal, using technologies such as JSP, JPA, EJB, Ireports, JBoss / ApacheTomcat7 / 8 ++, MySQL and Oracle relational databases. \n" +
-						"\n" +
-						"Platform for the development of corporate Liferay portals and their technologies. Use of agile methodologies for development (Scrum). - Direct use of the Liferay platform with JSF2, Primefaces 4.0, Javascript, Hibernate, Oracle 11g JBoss5.1/7 and Apache Solr. - Continuous build of Maven projects using Jenkins. Code version control using SVN.\n" +
-						"\n" +
-						"- Member of the team of development of new projects of the company.\n" +
-						"- Participating Member Involved in Single Sign-On Design for the Unimed System Application Suite. Through the Single Sign-On (SSO) mechanism, using the oAuth2 protocol in conjunction with the Spring Framework.\n" +
-						"- Participating member of mobile projects for the Unimed System (Cooperative / Beneficiary) using technologies such as Ionic and AngularJS.").build());
+				.whatIDidThere("Development of applications using the Java programming language for Corporate Portal, using technologies such as JSP, JPA, EJB, Ireports, JBoss / ApacheTomcat7 / 8 ++, MySQL and Oracle relational databases. Platform for the development of corporate Liferay portals and their technologies. Use of agile methodologies for development (Scrum). - Direct use of the Liferay platform with JSF2, Primefaces 4.0, Javascript, Hibernate, Oracle 11g JBoss5.1/7 and Apache Solr. - Continuous build of Maven projects using Jenkins. Code version control using SVN. - Member of the team of development of new projects of the company. - Participating Member Involved in Single Sign-On Design for the Unimed System Application Suite. Through the Single Sign-On (SSO) mechanism, using the oAuth2 protocol in conjunction with the Spring Framework. - Participating member of mobile projects for the Unimed System (Cooperative / Beneficiary) using technologies such as Ionic and AngularJS.").build());
 
 		experiences.add(new Experience().builder()
 				.fullName(MYSELF_NAME)
@@ -67,9 +51,7 @@ public class MyOwnCvApplication {
 				.endDate(LocalDate.of(2015, 02, 05 ))
 				.companyName("Portal Unimed")
 				.role("Java Junior Developer - Support Team")
-				.whatIDidThere(" Member participant of support team to legacy projects of the System Unimed. Working with legacy applications. Front-end using JSP/JSF with JavaScript. Back-end with Java6/7 and Struts1.2 and Spring. Databases like Oracle and MySQL;\n" +
-						"    Prepare deployment in staging and production environment;\n" +
-						"\t  Technical analysis of legacy applications improvements(database and code improvements);\n").build());
+				.whatIDidThere(" Member participant of support team to legacy projects of the System Unimed. Working with legacy applications. Front-end using JSP/JSF with JavaScript. Back-end with Java6/7 and Struts1.2 and Spring. Databases like Oracle and MySQL; Prepare deployment in staging and production environment; Technical analysis of legacy applications improvements(database and code improvements); ").build());
 
 		experiences.add(new Experience().builder()
 				.fullName(MYSELF_NAME)
@@ -77,8 +59,7 @@ public class MyOwnCvApplication {
 				.endDate(LocalDate.of(2013, 02, 01))
 				.companyName("Softplan / Poligraph")
 				.role("Intern Java Developer")
-				.whatIDidThere("Maintenance and implementation of functionalities in a system responsible for the electronic management of purchases and tenders of state and federal public agencies. \n" +
-						"\t\tMaintenance of software, testing, data validation, implementation of reports and etc. Worked with Java6/7, Struts2, EJB3 and Jboss 4.2/5.1.\n").build());
+				.whatIDidThere("Maintenance and implementation of functionalities in a system responsible for the electronic management of purchases and tenders of state and federal public agencies. Maintenance of software, testing, data validation, implementation of reports and etc. Worked with Java6/7, Struts2, EJB3 and Jboss 4.2/5.1. ").build());
 
 		qualifications.add(new Qualification().builder()
 					.fullName(MYSELF_NAME)

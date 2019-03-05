@@ -47,7 +47,7 @@
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
   /**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ * Prevent the duplicate application of `normaler` by the next rule in Safari 6.
  */
   /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -1125,7 +1125,7 @@
 
 .swagger-ui b,
 .swagger-ui strong {
-  font-weight: bolder;
+  font-weight: normaler;
 }
 
 .swagger-ui code,
@@ -4233,7 +4233,7 @@
 }
 
 .swagger-ui .b {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .swagger-ui .fw1 {
@@ -4277,7 +4277,7 @@
     font-weight: normal;
   }
   .swagger-ui .b-ns {
-    font-weight: bold;
+    font-weight: normal;
   }
   .swagger-ui .fw1-ns {
     font-weight: 100;
@@ -4313,7 +4313,7 @@
     font-weight: normal;
   }
   .swagger-ui .b-m {
-    font-weight: bold;
+    font-weight: normal;
   }
   .swagger-ui .fw1-m {
     font-weight: 100;
@@ -4349,7 +4349,7 @@
     font-weight: normal;
   }
   .swagger-ui .b-l {
-    font-weight: bold;
+    font-weight: normal;
   }
   .swagger-ui .fw1-l {
     font-weight: 100;
@@ -9672,7 +9672,7 @@
 
 .swagger-ui .opblock .opblock-section-header > label {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9701,7 +9701,7 @@
 
 .swagger-ui .opblock .opblock-summary-method {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   min-width: 80px;
   padding: 6px 15px;
   text-align: center;
@@ -9968,7 +9968,7 @@
 }
 
 .swagger-ui .tab li.active {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .swagger-ui .opblock-description-wrapper,
@@ -10193,7 +10193,7 @@
 
 .swagger-ui .scheme-container .schemes > label {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10236,7 +10236,7 @@
 
 .swagger-ui .loading-container .loading:after {
   font-size: 10px;
-  font-weight: bold;
+  font-weight: normal;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -10358,7 +10358,7 @@
 
 .swagger-ui .btn {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 5px 23px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -10491,7 +10491,7 @@
 
 .swagger-ui select {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 5px 40px 5px 10px;
   border: 2px solid #41444e;
   border-radius: 4px;
@@ -10531,7 +10531,7 @@
 
 .swagger-ui label {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   margin: 0 0 5px 0;
   font-family: sans-serif;
   color: #3b4151;
@@ -11069,7 +11069,7 @@
 
 .swagger-ui .servers-title {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .swagger-ui .operation-servers h4.message {
@@ -11115,7 +11115,7 @@
 .swagger-ui table thead tr th,
 .swagger-ui table thead tr td {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 12px 0;
   text-align: left;
   border-bottom: 1px solid rgba(59, 65, 81, 0.2);
@@ -11140,7 +11140,7 @@
 }
 
 .swagger-ui .parameter__name.required {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .swagger-ui .parameter__name.required:after {
@@ -11203,7 +11203,7 @@
 
 .swagger-ui .topbar a {
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11279,7 +11279,7 @@
 
 .swagger-ui .topbar .download-url-wrapper .download-url-button {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 4px 30px;
   border: none;
   border-radius: 0 4px 4px 0;

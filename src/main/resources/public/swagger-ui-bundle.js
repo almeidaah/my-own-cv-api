@@ -74428,10 +74428,6 @@ object-assign
 
                         return (
                             _react2.default.createElement("div", { className: "highlight-code" },
-                                !downloadable ? null :
-                                    _react2.default.createElement("div", { className: "download-contents", onClick: this.downloadText }, "Download"),
-
-
 
                                 _react2.default.createElement("pre", {
                                         ref: this.initializeComponent,
