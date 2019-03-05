@@ -3,14 +3,15 @@
 A fun project containing my CV as Public API :)
 
 
-Using:  
+**Using:  
+
 Swagger-ui template( from Swagger-UI github https://github.com/swagger-api/swagger-ui )  
-Java 11(JDK8+ should work as well)  
+_Java 11(JDK8+ should work as well)  
 MongoDB as database  
 Gradle to dependency manager  
 Spring boot(with spring-data-mongodb)
 
-How to create yours:
+**How to create yours:
 
 1 - Star this repository :)  
 2 - Clone this repo :)  
